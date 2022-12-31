@@ -1,0 +1,38 @@
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+.content{
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.content h2{
+    -webkit-text-stroke: 1.5px #fff;
+    color: transparent;
+    font-size: 8em;
+    line-height: .9em;
+}
+.content h2 c{
+    color: rgb(14, 199, 241);
+    -webkit-text-stroke: 0 #fff;
+}
+.logo{
+    padding-top: 30vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    max-width: 150px;
+    opacity: .9;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
